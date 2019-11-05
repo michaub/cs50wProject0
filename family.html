@@ -2,18 +2,33 @@
 <html>
     <head>
         <title>My web page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
     </head>
     <body>
         <h1>Welcome to my web page!</h1>
         <div id="menu">
-        <a href="index.html" class="link">Home</a>
-        <a href="family.html" class="link">My family</a>
-        <a href="whisky.html" class="link">Whisky</a>
-        <a href="aboutme.html" class="link">About me</a>
+                <ul class="nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="family.html">My family</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="whisky.html">Whisky</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="sass.html">Sass</a>
+                        </li>
+                </ul>
         </div>
         <div id="body">
-            <p>Few words about my family:</p>
+            <p>Some data about my family:</p>
             <table>
                 <tr>
                     <th>Name</th>
@@ -30,8 +45,43 @@
                     <td>2</td>
                     <td>Daughter</td>
                 </tr>
-                
             </table>
+            <p>Some data about my family presented using bootstrap:</p>                
+            <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        Name
+                      </div>
+                      <div class="col-sm">
+                        Age
+                      </div>
+                      <div class="col-sm">
+                        Relation
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            Monika
+                        </div>
+                        <div class="col-sm">
+                          36
+                        </div>
+                        <div class="col-sm">
+                          Wife
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-sm">
+                           Natalia
+                         </div>
+                         <div class="col-sm">
+                           2
+                         </div>
+                         <div class="col-sm">
+                           Daughter
+                         </div>
+                    </div>
+            </div>
         </div>
     </body>
 </html>
