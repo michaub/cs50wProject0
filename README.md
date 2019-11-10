@@ -5,4 +5,14 @@
 
                                 Project0
 
-                                This is simple page made using some bootstrap, sass and few others. Nothing exiting, just a statick page.
+                                index.html contains just a simple "home page".
+                                
+                                family.html contains some info about my family. Used table and bootstrap grid to present data.
+
+                                whisky.html contains ordered list with my 5 favourite whiskies.
+
+                                aboutme.html contains only a picture.
+
+                                sass.html contains only sass inheritance.
+
+                                This project is a tribute to all "home pages" that everyone had in mid 90s.                               

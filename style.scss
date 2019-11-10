@@ -11,6 +11,14 @@ $fontcolor: rgb(3, 206, 3);
     color: $fontcolor;
     border: 1px solid white;
 }
+.success {
+    @extend %message;
+    background-color: lightblue;
+}
+.warning {
+    @extend %message;
+    background-color: yellow;
+}
 
 h1 {
     text-align: center;
@@ -74,6 +82,8 @@ th, td {
     border: 1px solid rgb(1, 138, 1);
     text-align: center;
 }
+
+/* Sass nesting*/
 body {
     h1 {
     text-align: center;

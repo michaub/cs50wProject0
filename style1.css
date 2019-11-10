@@ -1,0 +1,95 @@
+/* Sass variables:*/
+/*Sass inheritance*/
+.warning, .success {
+  font-size: 8px;
+  color: #03ce03;
+  border: 1px solid white;
+}
+
+.success {
+  background-color: lightblue;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+  color: #03ce03;
+}
+
+body {
+  background-color: darkgreen;
+  color: #03ce03;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #03ce03;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #018a01;
+}
+
+#menu {
+  margin: auto;
+  width: 35%;
+  /*border: black solid 3px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+table {
+  border: 2px solid #018a01;
+  border-collapse: collapse;
+  margin: auto;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid #018a01;
+  padding: 10px;
+  text-align: center;
+}
+
+#body {
+  width: 55%;
+  margin: auto;
+  /*border: black solid 3px;*/
+  padding: 15px;
+  background-color: #013501;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  h1::after {
+    content: "mobile";
+    font-size: 12px;
+    color: white;
+  }
+}
+.container {
+  border: 2px solid #018a01;
+}
+
+.row, .col-sm {
+  border: 1px solid #018a01;
+  text-align: center;
+}
+
+/* Sass nesting*/
+body h1 {
+  text-align: center;
+  color: #03ce03;
+}
+
+/*# sourceMappingURL=style1.css.map */
